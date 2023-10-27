@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyControler {
     @GetMapping("/")
     public String index(){
-        return "Greetings from Spring Boot, with Web Hook! Now testing mid run - and it stops the previous run!";
+        return "Is this working?"   ;
     }
 }
